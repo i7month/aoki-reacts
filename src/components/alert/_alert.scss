@@ -1,0 +1,28 @@
+.aoki-alert{
+  position: relative;
+  padding: .4rem .8rem;
+  line-height: 2.5rem;
+  height: 3.3rem;
+  overflow: hidden;
+  border-radius: 3px;
+  display: flex;
+  color: $white;
+  justify-content: space-between;
+  transition: all .3s;
+  &.aoki-success{
+    background: $success;
+  }
+  &.aoki-info{
+    background: $info;
+  }
+  &.aoki-warning{
+    background: $warning;
+  }
+  &.aoki-error{
+    background: $red;
+  }
+  .aoki-close{
+    padding: 0 .8rem;
+    border: $border-width solid $white;
+  }
+}
